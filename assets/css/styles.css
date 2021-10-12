@@ -1,0 +1,44 @@
+h1{
+    color: white;
+    text-align: center;
+    font-size: 75px;
+    padding-top: 40px;
+    padding-bottom: 25px;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+header{
+    background-color: black;
+    margin-top: -50px;
+    margin-left: -10px;
+    margin-right: -10px;
+
+}
+
+nav{
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+img{
+    margin: 10px;
+    padding-left: 35px;
+    padding-top: 35px;
+}
+
+.links{
+    margin-left: 30px;
+    margin-right: 30px;
+    font-size: 25px;
+    color: white;
+}
+
+.responsive{
+    width: auto;
+    max-width: 400px;
+    height: auto;
+}
+
