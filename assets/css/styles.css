@@ -78,9 +78,9 @@ img{
 }
 
 .video-container{
-    position: fixed;
+    position: absolute;
     object-fit: cover;
-    top: 13px;
+    top: 50px;
 }
 
 a:link {
