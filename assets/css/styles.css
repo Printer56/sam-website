@@ -6,10 +6,6 @@ h1{
     padding-bottom: 25px;
 }
 
-video{
-    
-}
-
 body{
     overflow-x: hidden;
 }
@@ -19,7 +15,6 @@ header{
     margin-top: -50px;
     margin-left: -10px;
     margin-right: -10px;
-
 }
 
 nav{
@@ -54,6 +49,38 @@ img{
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
+}
+
+.headerVideo{
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.headerLinks{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.headerVideo h1{
+    text-align: center;
+    z-index: 1;
+}
+
+.headerVideo nav{
+    z-index: 1;
+}
+
+.video-container{
+    position: fixed;
+    object-fit: cover;
+    top: 13px;
 }
 
 a:link {
